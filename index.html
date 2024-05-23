@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Arquitectura de computadoras</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Arquitectura de computadoras<br>
+      Menú <br></h1>
+
+  </header>
+  <div class="container">
+    <div class="box" onclick="window.location.href = 'Unidad1.html';">
+      <img src="imagenes/unidad1.jpeg" alt="Imagen 1">
+      <div class="content">
+        <p>Unidad 1</p>
+      </div>
+    </div>
+    <div class="box" onclick="window.location.href = 'Unidad2.html';">
+      <img src="imagenes/unidad2.jpeg" alt="Imagen 2">
+      <div class="content">
+        <p>Unidad 2</p>
+      </div>
+    </div>
+    <div class="box" onclick="window.location.href = 'Unidad3.html';">
+      <img src="imagenes/unidad3.jpeg" alt="Imagen 3">
+      <div class="content">
+        <p>Unidad 3</p>
+      </div>
+    </div>
+    <div class="box" onclick="window.location.href = 'Unidad4.html';">
+      <img src="imagenes/unidad4.jpg" alt="Imagen 4">
+      <div class="content">
+        <p>Unidad 4</p>
+      </div>
+    </div>
+    <div class="box" onclick="window.location.href = 'practicas.html';">
+      <img src="imagenes/practicas.jpeg" alt="Imagen 5">
+      <div class="content">
+        <p>Prácticas</p>
+      </div>
+    </div>
+  </div>
+  
+  
+</body>
+
+  <footer>
+    <h6>&copy; <span id="currentYear"></span> Mariana Guadalupe Belmares Del Llano</h6>
+  </footer>
+
+  <script>
+    document.getElementById('currentYear').innerText = new Date().getFullYear();
+  </script>
+
+</html>
